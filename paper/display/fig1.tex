@@ -1,0 +1,17 @@
+% === Fig 1: schematic (FigEdit; source figures/fig1_schematic.svg) ===
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_schematic.pdf}
+\caption{\textbf{Event construction for the interocular reading-event contrast $A$.}
+Left- and right-eye gaze traces are converted to per-eye angular velocity. Saccades are detected either on the mean of the two per-eye speed
+magnitudes (mean-speed detector) or separately in each eye (per-eye detector). The admission gate keeps a mean-speed event only when it overlaps a
+matched left/right per-eye event pair, whether or not that pair passes its own exclusion rules; detection windows, peak samples and saccade classes of admitted events are unchanged. Centring is an optional
+branch that keeps events whose log left/right peak-velocity ratio $l$ lies within $\log 2$ of the recording median. $A$ is half the difference between
+the median $l$ of return sweeps and of progressive saccades in a recording. A recording enters only when it meets the event floor; at floor 5 it
+must contain at least 5 return sweeps and 20 progressive saccades. Inset: R1 S1--S2 ICC(A,1) of unfiltered mean-speed events, of admitted events and of mean-speed events with a post hoc 1,000\textdegree/s peak-velocity ceiling,
+in the joint cohort, the participants whose two R1 sessions were eligible under all six constructions ($n$ = 376, floor 5), and the first two again with the
+single most influential participant omitted ($n$ = 375; Results).
+Detector thresholds and the six-construction lookup are given in Methods.}
+\label{fig:schematic}
+\end{figure}
+% inset values: unfiltered mean-speed .374, admitted .693 (pw_p1_joint_icc.csv), ceiling .711 (rv_v7_ceiling_icc.csv), omitted .639 vs .693 (rv_v4_loo_summary.csv)

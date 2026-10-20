@@ -1,0 +1,2 @@
+cond,recordings,events_detected,events_pool,events_kept,retention,rs_pool,prog_pool,eligible_rec_unfilt_f1,pairs_R1_unfilt_f1,eligible_rec_unfilt_f5,pairs_R1_unfilt_f5,eligible_rec_unfilt_f10,pairs_R1_unfilt_f10,eligible_rec_centred_f1,pairs_R1_centred_f1,eligible_rec_centred_f5,pairs_R1_centred_f5,eligible_rec_centred_f10,pairs_R1_centred_f10
+base,1004,255303,138642,126386,0.9115996595548247,15374,123268,995,401,960,379,895,351,992,398,955,377,879,342

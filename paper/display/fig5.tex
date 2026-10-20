@@ -1,0 +1,17 @@
+% === Fig 5: synthetic one-eye faults (gen_fig5_injection.py) ===
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig5_injection.pdf}
+\caption{\textbf{Abstention by the centring rule under synthetic one-eye faults.}
+\textbf{a}, Recall: fraction of injections reaching centring (overlapped by a detected event that passed the class and exclusion rules) that the centring rule abstained from, with
+95\% participant-cluster bootstrap CI; denominator, injections reaching centring. Dashes show the fraction reaching centring; denominator, all injections. The frozen criterion for judged conditions (filled) was
+a point estimate of at least .80 (dashed line) with lower bound $>$ .70; open blue markers are unjudged magnitudes, grey markers are descriptive contamination
+conditions (one-eye slowing by a factor of 3 applied to 5--30\% of eligible events). Of the judged one-eye conditions, only the tested 4$^\circ$ and 8$^\circ$ steps met the criterion; one-eye slowing (factor 3) and a
+6$^\circ$ peak glitch did not. For one-eye dropout, only 61 of 4,835 injections reached centring (most were removed at the missingness layer),
+so its recall was not interpreted. \textbf{b}, Specificity control: the within-saccade displacement of one randomly chosen eye was scaled by
+$\kappa$, a negative-control perturbation ($|\Delta l| \approx .15 < \log 2$). Excess rejection is the rejection rate of the same
+target events reaching centring after scaling minus that in the uninjected baseline pass ($\kappa$ = 0.85: .009 [.006, .012];
+$\kappa$ = 1.15: .007 [.005, .010]; participant-cluster bootstrap).
+Injection counts, the fraction reaching centring, recall or excess rejection, untouched-event changes and outcome layers per condition are in Supplementary Table S9.}
+\label{fig:injection}
+\end{figure}

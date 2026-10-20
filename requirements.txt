@@ -1,0 +1,9 @@
+# Versions used for the local (CPU) analyses, figures and the R1 re-extraction check (Python 3.13.11).
+# The original full-data passes were run on a rented Linux server (conda Python; same code).
+numpy==2.4.4
+pandas==3.0.3
+scipy==1.17.1
+pyarrow==24.0.0
+matplotlib==3.10.9
+pillow==12.3.0
+cairosvg==2.9.0

@@ -1,0 +1,24 @@
+% Standalone supplement; Tables S1--S16 retain their original values.
+\documentclass[12pt,a4paper]{article}
+\input{jov_preamble}
+\newcommand{\BeginWidePages}{%
+  \newgeometry{layoutwidth=297mm,layoutheight=210mm,margin=25.4mm}%
+  \pdfpagewidth=297mm\pdfpageheight=210mm}
+\newcommand{\EndWidePages}{%
+  \clearpage\restoregeometry
+  \pdfpagewidth=210mm\pdfpageheight=297mm}
+\title{Supplementary material\\[8pt]\large\ManuscriptTitle}
+\author{\AuthorNames\\[10pt]\parbox{0.96\textwidth}{\centering\small\AuthorDetails}}
+\date{}
+\begin{document}
+\begin{singlespace}
+\maketitle
+\end{singlespace}
+\thispagestyle{plain}
+\clearpage
+\renewcommand{\thepage}{S\arabic{page}}
+\setcounter{page}{1}
+\linenumbers
+\input{sections/supplementary}
+\clearpage
+\end{document}

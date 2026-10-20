@@ -1,0 +1,36 @@
+# Large release assets and extracted recordings
+data/
+release_data/
+*.zip
+*.tar.gz
+results/passes/
+results/passes_sens/
+results/logs/
+*.log
+# Local environments and private configuration
+.venv/
+__pycache__/
+*.py[cod]
+.mcp.json
+.aris/
+.agents/
+.ssh/
+.gitconfig
+.env
+backups/
+work/
+# Generated publication files
+figures/*.pdf
+figures/*.png
+figures/*.svg
+figures/si/
+figures/TABLE_1.tex
+figures/SI_TABLES.tex
+figures/latex_includes.tex
+paper/*.pdf
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.out

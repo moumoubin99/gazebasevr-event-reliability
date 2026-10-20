@@ -1,0 +1,3 @@
+detector,n_ref,n_frozen,same_windows,max_abs_diff_pv_amp
+mean,203307,203307,True,0.0
+pereye,157381,157381,True,0.0
